@@ -1,0 +1,36 @@
+[gd_scene format=3 uid="uid://cpa15qwcl3w7f"]
+
+[ext_resource type="Texture2D" uid="uid://b7rgsl0usr4bp" path="res://Assets/perfectegg.svg" id="1_dyjui"]
+[ext_resource type="Script" uid="uid://ca5ctflcg5l2c" path="res://egg.gd" id="1_qsp4x"]
+[ext_resource type="Texture2D" uid="uid://doq3pr23ksf8d" path="res://Assets/box-no-bg.svg" id="2_qsp4x"]
+[ext_resource type="Texture2D" uid="uid://ryrkt47kqsi5" path="res://Assets/boden-no-bg.svg" id="3_cdfvw"]
+[ext_resource type="Texture2D" uid="uid://b2w3k486dtuv5" path="res://Assets/flummi-no-bg.svg" id="4_dot18"]
+
+[node name="Node2D" type="Node2D" unique_id=959508885]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1849708628]
+script = ExtResource("1_qsp4x")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=793247281]
+position = Vector2(147.855, 0)
+scale = Vector2(0.445, 0.445)
+texture = ExtResource("1_dyjui")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1512734497]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=37303753]
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D" unique_id=1438266522]
+position = Vector2(256, 216.5)
+scale = Vector2(0.73333335, 0.59907407)
+texture = ExtResource("2_qsp4x")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="." unique_id=1005293609]
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D2" unique_id=227469960]
+texture = ExtResource("3_cdfvw")
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="." unique_id=611219352]
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D3" unique_id=335952760]
+texture = ExtResource("4_dot18")

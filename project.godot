@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Egg-Jump"
-run/main_scene="uid://p6ulymdjy3wb"
+run/main_scene="uid://cpa15qwcl3w7f"
 config/features=PackedStringArray("4.7", "Mobile")
 
 [display]
