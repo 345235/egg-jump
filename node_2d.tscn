@@ -7,9 +7,12 @@
 [node name="Node2D" unique_id=784585665 instance=ExtResource("1_0e48y")]
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="." index="0" unique_id=1894156814]
+position = Vector2(-1.9736328, -8.93811)
 script = ExtResource("2_0hol4")
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" index="0" unique_id=1312387560]
-position = Vector2(405.49997, 453.5)
-scale = Vector2(0.7755208, 0.7416667)
+position = Vector2(26.999971, 9.219094)
+scale = Vector2(0.62083334, 0.591261)
 texture = ExtResource("2_epypp")
+
+[node name="Camera2D" type="Camera2D" parent="." index="1" unique_id=1628998740]
