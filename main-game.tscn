@@ -146,3 +146,8 @@ texture = ExtResource("3_cdfvw")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D10" unique_id=1084733053]
 position = Vector2(-666, -131)
 shape = SubResource("RectangleShape2D_xv2ou")
+
+[node name="Backround" type="Sprite2D" parent="." unique_id=1761668581]
+show_behind_parent = true
+position = Vector2(41, -413)
+texture = ExtResource("6_cdfvw")
