@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dxitmni0xd7il"
-path="res://.godot/imported/boden-no-bg.svg-449612807b4da9f8185f5cd817441a46.ctex"
+uid="uid://b7rgsl0usr4bp"
+path="res://.godot/imported/perfectegg.svg-fbf6653d94e4d32686b4ced8a8144e47.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://boden-no-bg.svg"
-dest_files=["res://.godot/imported/boden-no-bg.svg-449612807b4da9f8185f5cd817441a46.ctex"]
+source_file="res://Assets/perfectegg.svg"
+dest_files=["res://.godot/imported/perfectegg.svg-fbf6653d94e4d32686b4ced8a8144e47.ctex"]
 
 [params]
 

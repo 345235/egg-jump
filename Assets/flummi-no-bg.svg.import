@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://fb6pa2a1ww7u"
-path="res://.godot/imported/perfectegg.svg-216b53d3c22990d45d92e4b060cc39f3.ctex"
+uid="uid://b2w3k486dtuv5"
+path="res://.godot/imported/flummi-no-bg.svg-352c730346bd7da9dcfe5a62331036d9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://perfectegg.svg"
-dest_files=["res://.godot/imported/perfectegg.svg-216b53d3c22990d45d92e4b060cc39f3.ctex"]
+source_file="res://Assets/flummi-no-bg.svg"
+dest_files=["res://.godot/imported/flummi-no-bg.svg-352c730346bd7da9dcfe5a62331036d9.ctex"]
 
 [params]
 

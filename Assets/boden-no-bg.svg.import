@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cc7s08xmmjkv6"
-path="res://.godot/imported/box-no-bg.svg-95f82e7dfb28c799442b59d19c97c9fd.ctex"
+uid="uid://ryrkt47kqsi5"
+path="res://.godot/imported/boden-no-bg.svg-314fd88059e75852bea055fc976fc256.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://box-no-bg.svg"
-dest_files=["res://.godot/imported/box-no-bg.svg-95f82e7dfb28c799442b59d19c97c9fd.ctex"]
+source_file="res://Assets/boden-no-bg.svg"
+dest_files=["res://.godot/imported/boden-no-bg.svg-314fd88059e75852bea055fc976fc256.ctex"]
 
 [params]
 
