@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://p6ulymdjy3wb"]
+
+[ext_resource type="PackedScene" uid="uid://cjhoq3iptyxbn" path="res://Egg-jump.tscn" id="1_0e48y"]
+[ext_resource type="Texture2D" uid="uid://fb6pa2a1ww7u" path="res://perfectegg.svg" id="2_epypp"]
+
+[node name="Node2D" unique_id=784585665 instance=ExtResource("1_0e48y")]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." index="0" unique_id=1894156814]
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" index="0" unique_id=1312387560]
+texture = ExtResource("2_epypp")
