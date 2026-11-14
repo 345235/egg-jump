@@ -1,36 +1,38 @@
 [gd_scene format=3 uid="uid://cpa15qwcl3w7f"]
 
-[ext_resource type="Texture2D" uid="uid://b7rgsl0usr4bp" path="res://Assets/perfectegg.svg" id="1_dyjui"]
-[ext_resource type="Script" uid="uid://ca5ctflcg5l2c" path="res://egg.gd" id="1_qsp4x"]
-[ext_resource type="Texture2D" uid="uid://doq3pr23ksf8d" path="res://Assets/box-no-bg.svg" id="2_qsp4x"]
-[ext_resource type="Texture2D" uid="uid://ryrkt47kqsi5" path="res://Assets/boden-no-bg.svg" id="3_cdfvw"]
-[ext_resource type="Texture2D" uid="uid://b2w3k486dtuv5" path="res://Assets/flummi-no-bg.svg" id="4_dot18"]
+[ext_resource type="Script" uid="uid://cbelfesa0yap0" path="res://node_2d.gd" id="1_dyjui"]
+[ext_resource type="Texture2D" uid="uid://op5lgoebmaip" path="res://wallpapa-no-bg.svg" id="2_qsp4x"]
+[ext_resource type="Script" uid="uid://fu05i7fssuvm" path="res://label.gd" id="3_cdfvw"]
+[ext_resource type="PackedScene" uid="uid://cpa15qwcl3w7f" path="res://main-game.tscn" id="4_dot18"]
 
-[node name="Node2D" type="Node2D" unique_id=959508885]
+[node name="Node2D" unique_id=959508885 instance=ExtResource("4_dot18")]
+script = ExtResource("1_dyjui")
 
-[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1849708628]
-script = ExtResource("1_qsp4x")
-
-[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" unique_id=793247281]
-position = Vector2(147.855, 0)
-scale = Vector2(0.445, 0.445)
-texture = ExtResource("1_dyjui")
-
-[node name="Camera2D" type="Camera2D" parent="." unique_id=1512734497]
-
-[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=37303753]
-
-[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D" unique_id=1438266522]
-position = Vector2(256, 216.5)
-scale = Vector2(0.73333335, 0.59907407)
+[node name="Sprite2D" type="Sprite2D" parent="." index="0" unique_id=323602790]
+position = Vector2(-555, 31)
 texture = ExtResource("2_qsp4x")
 
-[node name="StaticBody2D2" type="StaticBody2D" parent="." unique_id=1005293609]
+[node name="Sprite2D" parent="CharacterBody2D" parent_id_path=PackedInt32Array(1849708628) index="0" unique_id=793247281]
+position = Vector2(-672.00006, 130)
 
-[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D2" unique_id=227469960]
-texture = ExtResource("3_cdfvw")
+[node name="Sprite2D" parent="StaticBody2D" parent_id_path=PackedInt32Array(37303753) index="0" unique_id=1438266522]
+position = Vector2(-290, 172.00002)
 
-[node name="StaticBody2D3" type="StaticBody2D" parent="." unique_id=611219352]
+[node name="StaticBody2D2" parent="." index="4" unique_id=1005293609]
+position = Vector2(-1257, -228)
 
-[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D3" unique_id=335952760]
-texture = ExtResource("4_dot18")
+[node name="Sprite2D" parent="StaticBody2D2" index="0" unique_id=227469960]
+position = Vector2(1120, 537)
+
+[node name="StaticBody2D3" parent="." index="5" unique_id=611219352]
+position = Vector2(221, -321)
+
+[node name="Sprite2D" parent="StaticBody2D3" index="0" unique_id=335952760]
+position = Vector2(-189, 550)
+
+[node name="Label" type="Label" parent="." index="6" unique_id=98744113]
+offset_left = -335.0
+offset_top = 466.0
+offset_right = 133.0
+offset_bottom = 548.0
+script = ExtResource("3_cdfvw")
