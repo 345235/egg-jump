@@ -3,13 +3,29 @@
 [ext_resource type="PackedScene" uid="uid://cjhoq3iptyxbn" path="res://Egg-jump.tscn" id="1_0e48y"]
 [ext_resource type="Texture2D" uid="uid://fb6pa2a1ww7u" path="res://perfectegg.svg" id="2_epypp"]
 [ext_resource type="Texture2D" uid="uid://bjnhaoabe16v7" path="res://diedeggg.svg" id="3_epypp"]
+[ext_resource type="Texture2D" uid="uid://dxitmni0xd7il" path="res://boden-no-bg.svg" id="4_q6r6c"]
+[ext_resource type="Texture2D" uid="uid://c5mmcnjy61x8d" path="res://flummi-no-bg.svg" id="5_kdubu"]
 
 [node name="Node2D" unique_id=784585665 instance=ExtResource("1_0e48y")]
 
-[node name="CharacterBody2D" type="CharacterBody2D" parent="." index="0" unique_id=1894156814]
+[node name="Egg" type="CharacterBody2D" parent="." index="0" unique_id=1894156814]
 
-[node name="NormalEgg" type="Sprite2D" parent="CharacterBody2D" index="0" unique_id=1312387560]
+[node name="NormalEgg" type="Sprite2D" parent="Egg" index="0" unique_id=1312387560]
 texture = ExtResource("2_epypp")
 
-[node name="EggIsDead" type="Sprite2D" parent="CharacterBody2D" index="1" unique_id=1257744052]
+[node name="EggIsDead" type="Sprite2D" parent="Egg" index="1" unique_id=1257744052]
+visible = false
 texture = ExtResource("3_epypp")
+
+[node name="Ground" type="CharacterBody2D" parent="." index="1" unique_id=263788742]
+
+[node name="Boden" type="Sprite2D" parent="Ground" index="0" unique_id=1898837289]
+position = Vector2(350.00003, 213)
+scale = Vector2(1.0499998, 1)
+texture = ExtResource("4_q6r6c")
+
+[node name="Flummi" type="CharacterBody2D" parent="." index="2" unique_id=2105941104]
+
+[node name="Sprite2D" type="Sprite2D" parent="Flummi" index="0" unique_id=10233306]
+position = Vector2(1021, 21)
+texture = ExtResource("5_kdubu")
