@@ -13,6 +13,7 @@ config_version=5
 config/name="Egg-Jump"
 run/main_scene="uid://cpa15qwcl3w7f"
 config/features=PackedStringArray("4.7", "Mobile")
+boot_splash/bg_color=Color(2.3102762e-06, 0.6429108, 0.932764, 1)
 
 [display]
 
