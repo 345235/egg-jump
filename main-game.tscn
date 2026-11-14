@@ -2,37 +2,58 @@
 
 [ext_resource type="Script" uid="uid://cbelfesa0yap0" path="res://node_2d.gd" id="1_dyjui"]
 [ext_resource type="Texture2D" uid="uid://op5lgoebmaip" path="res://wallpapa-no-bg.svg" id="2_qsp4x"]
-[ext_resource type="Script" uid="uid://fu05i7fssuvm" path="res://label.gd" id="3_cdfvw"]
+[ext_resource type="Texture2D" uid="uid://ryrkt47kqsi5" path="res://Assets/boden-no-bg.svg" id="3_cdfvw"]
+[ext_resource type="Script" uid="uid://fu05i7fssuvm" path="res://label.gd" id="4_qsp4x"]
 
 [node name="Node2D" unique_id=959508885]
 script = ExtResource("1_dyjui")
 
 [node name="Sprite2D" type="Sprite2D" parent="." index="0" unique_id=323602790]
-position = Vector2(-512.00006, 99)
-scale = Vector2(0.9984375, 3.4009259)
+position = Vector2(-477.00003, -4775)
+scale = Vector2(0.9984375, 8.987964)
 texture = ExtResource("2_qsp4x")
 
 [node name="Sprite2D" parent="CharacterBody2D" parent_id_path=PackedInt32Array(1849708628) index="0" unique_id=793247281]
-position = Vector2(-555.00006, -936.00006)
+position = Vector2(-560.00006, -109.00006)
 
 [node name="Sprite2D" parent="StaticBody2D" parent_id_path=PackedInt32Array(37303753) index="0" unique_id=1438266522]
-position = Vector2(-152, -674)
+position = Vector2(-60, -821)
 
 [node name="StaticBody2D2" parent="." index="4" unique_id=1005293609]
 position = Vector2(-1257, -228)
 
 [node name="Sprite2D" parent="StaticBody2D2" index="0" unique_id=227469960]
-position = Vector2(1165, -475)
+position = Vector2(1200, 307)
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D2/Sprite2D" index="0" unique_id=93322322]
+position = Vector2(177, -232)
+texture = ExtResource("3_cdfvw")
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D2/Sprite2D/Sprite2D" index="0" unique_id=1217588546]
+position = Vector2(-149, -153)
+texture = ExtResource("3_cdfvw")
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D2/Sprite2D/Sprite2D/Sprite2D" index="0" unique_id=810416571]
+position = Vector2(168, -198)
+texture = ExtResource("3_cdfvw")
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D2/Sprite2D/Sprite2D/Sprite2D/Sprite2D" index="0" unique_id=1323567637]
+position = Vector2(-329, -139)
+texture = ExtResource("3_cdfvw")
 
 [node name="StaticBody2D3" parent="." index="5" unique_id=611219352]
 position = Vector2(221, -321)
 
 [node name="Sprite2D" parent="StaticBody2D3" index="0" unique_id=335952760]
-position = Vector2(-172, -206)
+position = Vector2(1445, -243)
 
 [node name="Label" type="Label" parent="." index="6" unique_id=98744113]
 offset_left = -335.0
 offset_top = 466.0
 offset_right = 133.0
 offset_bottom = 548.0
-script = ExtResource("3_cdfvw")
+script = ExtResource("4_qsp4x")
+
+[node name="Sprite2D2" type="Sprite2D" parent="." index="7" unique_id=1836468181]
+position = Vector2(-186, -1012)
+texture = ExtResource("3_cdfvw")
