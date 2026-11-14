@@ -3,32 +3,32 @@
 [ext_resource type="Script" uid="uid://cbelfesa0yap0" path="res://node_2d.gd" id="1_dyjui"]
 [ext_resource type="Texture2D" uid="uid://op5lgoebmaip" path="res://wallpapa-no-bg.svg" id="2_qsp4x"]
 [ext_resource type="Script" uid="uid://fu05i7fssuvm" path="res://label.gd" id="3_cdfvw"]
-[ext_resource type="PackedScene" uid="uid://cpa15qwcl3w7f" path="res://main-game.tscn" id="4_dot18"]
 
-[node name="Node2D" unique_id=959508885 instance=ExtResource("4_dot18")]
+[node name="Node2D" unique_id=959508885]
 script = ExtResource("1_dyjui")
 
 [node name="Sprite2D" type="Sprite2D" parent="." index="0" unique_id=323602790]
-position = Vector2(-555, 31)
+position = Vector2(-512.00006, 99)
+scale = Vector2(0.9984375, 3.4009259)
 texture = ExtResource("2_qsp4x")
 
 [node name="Sprite2D" parent="CharacterBody2D" parent_id_path=PackedInt32Array(1849708628) index="0" unique_id=793247281]
-position = Vector2(-672.00006, 130)
+position = Vector2(-555.00006, -936.00006)
 
 [node name="Sprite2D" parent="StaticBody2D" parent_id_path=PackedInt32Array(37303753) index="0" unique_id=1438266522]
-position = Vector2(-290, 172.00002)
+position = Vector2(-152, -674)
 
 [node name="StaticBody2D2" parent="." index="4" unique_id=1005293609]
 position = Vector2(-1257, -228)
 
 [node name="Sprite2D" parent="StaticBody2D2" index="0" unique_id=227469960]
-position = Vector2(1120, 537)
+position = Vector2(1165, -475)
 
 [node name="StaticBody2D3" parent="." index="5" unique_id=611219352]
 position = Vector2(221, -321)
 
 [node name="Sprite2D" parent="StaticBody2D3" index="0" unique_id=335952760]
-position = Vector2(-189, 550)
+position = Vector2(-172, -206)
 
 [node name="Label" type="Label" parent="." index="6" unique_id=98744113]
 offset_left = -335.0
