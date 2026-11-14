@@ -5,6 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://doq3pr23ksf8d" path="res://Assets/box-no-bg.svg" id="2_qsp4x"]
 [ext_resource type="Texture2D" uid="uid://ryrkt47kqsi5" path="res://Assets/boden-no-bg.svg" id="3_cdfvw"]
 [ext_resource type="Texture2D" uid="uid://b2w3k486dtuv5" path="res://Assets/flummi-no-bg.svg" id="4_dot18"]
+[ext_resource type="Texture2D" uid="uid://bt60cf11pdxaa" path="res://Assets/BACKROUND.svg" id="6_cdfvw"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dr5i1"]
 size = Vector2(190, 153)
@@ -130,3 +131,8 @@ texture = ExtResource("3_cdfvw")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D10" unique_id=1084733053]
 position = Vector2(-666, -131)
 shape = SubResource("RectangleShape2D_xv2ou")
+
+[node name="Backround" type="Sprite2D" parent="." unique_id=1761668581]
+show_behind_parent = true
+position = Vector2(41, -413)
+texture = ExtResource("6_cdfvw")
